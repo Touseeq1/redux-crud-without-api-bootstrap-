@@ -50,7 +50,7 @@ const Edit_Cont = () => {
       {current_con ? (                   //This is advance {   ? (<> </> ) : ( )} if else
         <>
           <div className="row d-flex flex-column">
-            <div className="col-md-6 mx-auto shadow p-5">
+            <div className="col-12 col-sm-12 col-md-6 col-lg-7 col-xl-7 col-xxl-8 mx-auto shadow p-5">
               <h1>Edit Student {id}</h1>
               <form onSubmit={handleSubmit}>
                 <div className="form-group">

@@ -59,7 +59,7 @@ const Add_Contact = () => {
   return (
     <div className="container">
       <div className="row">
-        <div className='col-md-6 mx-auto'>
+        <div className='col-12 col-sm-12 col-md-6 col-lg-7 col-xl-7 col-xxl-8 mx-auto shadow p-5'>
           <h1>Well come to add contact</h1>
 
           <form onSubmit={handleSubmit}>
